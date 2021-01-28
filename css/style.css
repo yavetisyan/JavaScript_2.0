@@ -3,7 +3,7 @@
     padding: 0;
 } */
 
-.container{
+.container {
     margin: 20px 40px;
 }
 
@@ -19,3 +19,22 @@ hr {
     margin: 20px 0;
 }
 
+.active {
+    background-color: #9270D3;
+    transition: 0.5s all ease-out;
+}
+
+.active_2 {
+    background-color: #FF6998;
+    transition: 0.5s all ease-out;
+}
+
+p::selection {
+    color: #fff;
+    background-color: #000;
+}
+
+p::first-letter {
+    font-size: 25px;
+    color: red;
+}
